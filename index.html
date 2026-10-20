@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f8eef9" />
+    <meta
+      name="description"
+      content="A tiny birthday gift made especially for Tasnuba Islam Tiha."
+    />
+    <title>A Little Birthday Gift for Tiha</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='20' fill='%23704777'/%3E%3Cpath d='M32 49S12 38 12 24c0-9 12-13 20-3 8-10 20-6 20 3 0 14-20 25-20 25Z' fill='%23fffaf4'/%3E%3C/svg%3E" />
+    <link rel="preload" href="assets/tiha-cartoon.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      document.documentElement.classList.add('js');
+      if (new URLSearchParams(window.location.search).get('open') === '1') {
+        document.documentElement.classList.add('preview-open');
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#birthday-page">Skip to the birthday note</a>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <div class="page-atmosphere" aria-hidden="true">
+      <span class="glow glow-one"></span>
+      <span class="glow glow-two"></span>
+      <span class="glow glow-three"></span>
+      <span class="star star-one">✦</span>
+      <span class="star star-two">✧</span>
+      <span class="star star-three">✦</span>
+    </div>
+    <div id="confetti-layer" aria-hidden="true"></div>
+
+    <section class="gift-gate" aria-labelledby="gate-title">
+      <div class="gate-sparkles" aria-hidden="true">
+        <i>✦</i><i>♡</i><i>✧</i><i>♡</i><i>✦</i>
+      </div>
+      <div class="envelope-wrap">
+        <div class="envelope-shadow"></div>
+        <div class="envelope">
+          <div class="envelope-flap"></div>
+          <div class="envelope-front"></div>
+          <div class="letter-card">
+            <span class="mini-label">A tiny corner of the internet</span>
+            <h1 id="gate-title">For<br />Tasnuba Islam Tiha</h1>
+            <div class="tiny-divider"><span>♡</span></div>
+            <p>I made you something small, because some smiles deserve their own webpage.</p>
+            <button class="primary-button open-gift" type="button">
+              <span>Open your little gift</span>
+              <span class="button-arrow" aria-hidden="true">↗</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p class="gate-whisper">best opened with a tiny smile</p>
+    </section>
+
+    <button class="sound-toggle" type="button" aria-pressed="true" aria-label="Turn little sounds off" tabindex="-1">
+      <span class="sound-waves" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="sound-label">little sounds on</span>
+    </button>
+
+    <main id="birthday-page" inert aria-hidden="true">
+      <nav class="mini-nav" aria-label="Birthday page navigation">
+        <a class="brand" href="#top" aria-label="Back to the beginning">for tiha, with <span>♡</span></a>
+        <a class="nav-note" href="#surprise">one little surprise awaits <span aria-hidden="true">↓</span></a>
+      </nav>
+
+      <section class="hero" id="top" tabindex="-1">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> A TINY DIGITAL GIFT</div>
+          <p class="pre-title">Today is a very good day to say...</p>
+          <h2>Happy birthday,<br /><em>Tiha.</em></h2>
+          <p class="hero-message">
+            I hope today feels like soft sunlight, your favorite song at exactly the right moment,
+            and the kind of happiness that quietly stays.
+          </p>
+          <div class="courage-note">
+            <span aria-hidden="true">♡</span>
+            made with a tiny bit of courage
+          </div>
+        </div>
+
+        <div class="portrait-column reveal">
+          <div class="portrait-halo" aria-hidden="true"></div>
+          <div class="portrait-frame">
+            <div class="portrait-pattern" aria-hidden="true"></div>
+            <img
+              src="assets/tiha-cartoon.png"
+              alt="A hand-drawn cartoon portrait of Tiha wearing her round glasses and a lavender bow"
+              width="1098"
+              height="1438"
+            />
+            <span class="portrait-sparkle sparkle-a" aria-hidden="true">✦</span>
+            <span class="portrait-sparkle sparkle-b" aria-hidden="true">✧</span>
+          </div>
+          <div class="portrait-sticker sticker-one">kind soul</div>
+          <div class="portrait-sticker sticker-two">birthday glow ✦</div>
+          <div class="portrait-caption"><span>Today looks good on you</span><i aria-hidden="true">♡</i></div>
+        </div>
+
+        <a class="scroll-cue" href="#little-things">
+          <span>keep scrolling, birthday girl</span>
+          <i aria-hidden="true">↓</i>
+        </a>
+      </section>
+
+      <section class="thoughts-section" id="little-things">
+        <div class="section-heading reveal">
+          <p class="kicker">THINGS I SHOULD PROBABLY SAY MORE OFTEN</p>
+          <h2>A few thoughts too shy for<br /><em>regular conversation.</em></h2>
+          <p>Tap each little card. They have something honest to tell you.</p>
+        </div>
+
+        <div class="compliment-grid">
+          <button class="compliment-card lavender reveal" type="button" aria-expanded="false">
+            <span class="card-number">01</span>
+            <span class="card-icon" aria-hidden="true">✦</span>
+            <span class="card-front">
+              <strong>Your quiet magic</strong>
+              <small>tap to unfold</small>
+            </span>
+            <span class="card-note">
+              There is something beautifully calm about you—the sort of presence that makes a room feel a little softer.
+            </span>
+            <span class="fold-corner" aria-hidden="true"></span>
+          </button>
+
+          <button class="compliment-card blush reveal" type="button" aria-expanded="false">
+            <span class="card-number">02</span>
+            <span class="card-icon" aria-hidden="true">☻</span>
+            <span class="card-front">
+              <strong>That smile</strong>
+              <small>tap to unfold</small>
+            </span>
+            <span class="card-note">
+              It has an unreasonable talent for turning an ordinary moment into one worth remembering.
+            </span>
+            <span class="fold-corner" aria-hidden="true"></span>
+          </button>
+
+          <button class="compliment-card butter reveal" type="button" aria-expanded="false">
+            <span class="card-number">03</span>
+            <span class="card-icon" aria-hidden="true">♡</span>
+            <span class="card-front">
+              <strong>The way you are</strong>
+              <small>tap to unfold</small>
+            </span>
+            <span class="card-note">
+              Genuine, thoughtful, and entirely your own—that is a rare and quietly wonderful kind of lovely.
+            </span>
+            <span class="fold-corner" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="honest-ribbon reveal"><span>no grand claims</span><i>♡</i><span>just three very honest things</span></div>
+      </section>
+
+      <section class="letter-section" aria-labelledby="letter-title">
+        <div class="letter-decor left" aria-hidden="true">✦</div>
+        <article class="birthday-letter reveal">
+          <span class="tape tape-left" aria-hidden="true"></span>
+          <span class="tape tape-right" aria-hidden="true"></span>
+          <div class="letter-stamp" aria-hidden="true"><span>FOR</span><strong>TIHA</strong><small>WITH ♡</small></div>
+          <p class="letter-date">A note for your next trip around the sun</p>
+          <h2 id="letter-title">Dear Tiha,</h2>
+          <div class="letter-body">
+            <p>
+              On your birthday, I just wanted to say this: I hope life is extra gentle with you this year.
+              I hope the things you work quietly for find their way to you, and that you never forget how much light you carry.
+            </p>
+            <p>
+              May there be new reasons to feel proud, people who make you feel safe, afternoons that ask nothing of you,
+              and more laughter than you know what to do with.
+            </p>
+            <p>
+              And maybe, somewhere among all those beautiful moments, I hope this tiny page becomes one worth remembering.
+            </p>
+          </div>
+          <div class="letter-signoff">
+            <span>Happy birthday, truly.</span>
+            <strong>— someone quietly cheering for you</strong>
+          </div>
+          <span class="scribble-heart" aria-hidden="true">♡</span>
+        </article>
+        <div class="letter-decor right" aria-hidden="true">✧</div>
+      </section>
+
+      <section class="surprise-section" id="surprise" aria-labelledby="surprise-title">
+        <div class="surprise-copy reveal">
+          <p class="kicker">ONE LAST LITTLE THING</p>
+          <h2 id="surprise-title">Some birthday wishes are better<br /><em>with a countdown.</em></h2>
+          <p>Take a tiny breath. Think of something lovely. Then let the magic begin.</p>
+        </div>
+
+        <div class="countdown-card reveal">
+          <div class="countdown-before">
+            <div class="countdown-orbit" aria-hidden="true"><span>✦</span><span>♡</span><span>✧</span></div>
+            <div class="countdown-number" aria-live="polite">ready?</div>
+            <button class="primary-button start-countdown" type="button">
+              <span>Start the magic</span><span class="button-arrow" aria-hidden="true">✦</span>
+            </button>
+          </div>
+
+          <div class="surprise-stage" aria-hidden="true">
+            <div class="balloon balloon-one" aria-hidden="true"><span></span></div>
+            <div class="balloon balloon-two" aria-hidden="true"><span></span></div>
+            <div class="balloon balloon-three" aria-hidden="true"><span></span></div>
+            <p class="cake-prompt">Make a wish, then tap the cake ✦</p>
+            <button class="cake" type="button" aria-label="Blow out the birthday candles">
+              <span class="cake-glow" aria-hidden="true"></span>
+              <span class="candles" aria-hidden="true">
+                <i class="candle c1"><b></b></i>
+                <i class="candle c2"><b></b></i>
+                <i class="candle c3"><b></b></i>
+                <i class="candle c4"><b></b></i>
+                <i class="candle c5"><b></b></i>
+              </span>
+              <span class="cake-top" aria-hidden="true"></span>
+              <span class="cake-body" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="cake-plate" aria-hidden="true"></span>
+            </button>
+            <div class="final-wish" role="status">
+              <span aria-hidden="true">♡</span>
+              <strong>Wish officially sent.</strong>
+              <p>May this year be soft, bright, brave, and beautifully yours.</p>
+              <button class="again-button" type="button">celebrate again ↻</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer inert aria-hidden="true">
+      <p>Made quietly, with a ridiculously big smile.</p>
+      <span>Especially for Tasnuba Islam Tiha</span>
+      <i aria-hidden="true">♡</i>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
