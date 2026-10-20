@@ -756,11 +756,25 @@ main {
 }
 
 .card-front small {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  width: fit-content;
   margin-top: 20px;
-  font-size: 0.65rem;
+  padding: 8px 11px;
+  font-size: 0.61rem;
   font-weight: 800;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
+  border: 1px solid rgba(74, 45, 82, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.34);
+}
+
+.card-front small::after {
+  content: "→";
+  font-size: 0.9rem;
+  animation: revealHint 1.4s ease-in-out infinite;
 }
 
 .card-note {
@@ -1129,6 +1143,7 @@ footer i { margin-top: 7px; color: #e9c8db; font-size: 1.3rem; font-style: norma
 @keyframes countPop { 0% { transform: scale(0.55); opacity: 0; } 55% { transform: scale(1.18); } 100% { transform: scale(1); opacity: 1; } }
 @keyframes flame { 0% { transform: translateX(-50%) rotate(-4deg) scaleY(0.93); } 100% { transform: translateX(-50%) rotate(4deg) scaleY(1.06); } }
 @keyframes balloonFloat { 0%,100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-15px) rotate(2deg); } }
+@keyframes revealHint { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(4px); } }
 @keyframes confettiFall { 0% { transform: translate3d(0,-5vh,0) rotate(0deg); opacity: 1; } 100% { transform: translate3d(var(--sway),110vh,0) rotate(var(--turn)); opacity: 0.85; } }
 
 @media (max-width: 900px) {
