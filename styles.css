@@ -575,9 +575,9 @@ main {
 .portrait-frame img {
   position: absolute;
   z-index: 2;
-  right: -2%;
-  bottom: -1%;
-  width: 104%;
+  right: -6%;
+  bottom: -33%;
+  width: 112%;
   height: auto;
   filter: drop-shadow(0 18px 18px rgba(59, 35, 65, 0.18));
 }
